@@ -1,0 +1,52 @@
+Hi
+
+New to S3
+
+Agin upload
+
+https://www.webassessor.com
+
+If you want your application to check whether a request generated an error then you look for an ______ node in the response from the Amazon RDS API
+
+
+What is the difference between Elastic Beanstalk & CloudFormation?
+
+Elastic Beanstalk automatically handles the deployment from capacity provisiong, load balancing, auto scaling to application, health monitoring based on the code you upload to it. Where as Cloud formation is an automated cloud provising engine design to deploy entire cloud formation via a JASON scripts.
+
+
+Autoscaling...
+When rebalancing, Auto Scaling launches new instances before terminating the old ones, so that rebalancing does not compromise the performance or availability of your application.
+
+
+S3 (Glacier)...
+
+You have millions of objects that are 8 to 30KB in size.  These are currently stored in S3 Standard storage.  
+
+You would like to reduce the cost by moving to Glacier or infrequent Access storage. 
+
+What options are suitable?
+
+Infrequent storage minimum charge is for 128KB. so it is not efficient to store small objects in there.
+
+Every Glacier storage object has 8kb metadata stored in S3 and 32KB stored in Glacier. so it is not efficient to store small objects i glacier.
+
+Combine small objects into large file and then store it in glacier
+
+
+Redshift is optimized for batched write operations and reading high volumes of data to minimize I/O and maximize data throughput
+
+Need to know...
+In RDS, what is the maximum value I can set for my backup retention period?
+In what circumstances would I choose provisoned IOPS in RDS over standard storage?
+In S3 with RRS the AVAILABILITY is
+Can I move a reserved instance from one region to another?
+In RDS what is the maximum size for a Microsoft SQL Server DB Instance with SQL Server Express edition?
+Reserved instances are available for multi-AZ deployments.
+Amazon's Glacier service is a Content Distribution Network which integrates with S3.
+MySQL installations default to port number
+If an Amazon EBS volume is an additional partition (ie not the root volume) , can I detach it without stopping the instance?
+You can RDP or SSH in to an RDS instance to see what is going on with the operating system.
+The AWS platform consists of how many regions currently?
+What is the difference between Elastic Beanstalk & CloudFormation?
+When I create a new security group, all outbound traffic is allowed by default.
+When deploying databases on your own EC2 instances, it is recommended that you de
